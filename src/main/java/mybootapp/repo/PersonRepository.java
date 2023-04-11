@@ -7,8 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import mybootapp.model.Person;
 
 
-@Repository
-@Transactional
+
 public interface PersonRepository extends JpaRepository<Person, String> {
 
 }
